@@ -1,0 +1,23 @@
+Haszálat:
+  sortdir parancs [argumentumok...]
+
+A sortdir függvénytár használata esetén az alkalmazás a könyvtár
+bejegyzéseit ábécérendben kapja meg.
+
+Az ábécérendbe rendezés alap esetben az alkalmazás által használt locale-től
+függ. Ez felülbírálható a SORTDIR_LOCALE változóval. Például:
+  export SORTDIR_LOCALE=hu_HU
+vagy
+  export SORTDIR_LOCALE=C
+
+A SORTDIR_VERSCMP változó tetszőleges értékre állításával verziószám
+szerinti sorrendezés (lásd strverscmp(3)) kérhető. Ekkor SORTDIR_LOCALE-t
+figyelmen kívül hagyjuk.
+
+A rendezés sorrendje az ellenkezőjére fordul, ha beállítjuk a
+SORTDIR_REVERSE változót tetszőleges értékre.
+
+
+
+Koblinger Egmont <egmont@uhulinux.hu>
+2002--2003

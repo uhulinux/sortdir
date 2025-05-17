@@ -1,0 +1,66 @@
+2017-09-06: 0.7
+------------------------------------------------------------------------
+2017-04-18: add -fPIC to Makefile
+------------------------------------------------------------------------
+r15 | egmont | 2007-08-01 14:39:37 +0200 (sze, 01 aug 2007) | 1 line
+Changed paths:
+   A /tags/0.6 (from /trunk:14)
+
+0.6
+------------------------------------------------------------------------
+r14 | egmont | 2007-08-01 14:39:33 +0200 (sze, 01 aug 2007) | 2 lines
+Changed paths:
+   M /trunk
+   M /trunk/COPYING.LIB
+   M /trunk/libsortdir.c
+   M /trunk/sortdir
+
+- override fdopendir
+
+------------------------------------------------------------------------
+r12 | egmont | 2005-08-31 17:06:57 +0200 (sze, 31 aug 2005) | 2 lines
+Changed paths:
+   M /trunk/README_HU
+
+- UTF-8
+
+------------------------------------------------------------------------
+r10 | egmont | 2003-09-24 02:51:15 +0200 (sze, 24 szept 2003) | 2 lines
+Changed paths:
+   M /trunk/README_EN
+   M /trunk/README_HU
+   M /trunk/libsortdir.c
+
+support for strverscmp()
+
+------------------------------------------------------------------------
+r8 | pozsy | 2003-07-19 20:07:45 +0200 (szo, 19 júl 2003) | 1 line
+Changed paths:
+   D /trunk/VERSION
+
+remove VERSION
+------------------------------------------------------------------------
+r7 | pozsy | 2003-07-19 13:27:44 +0200 (szo, 19 júl 2003) | 1 line
+Changed paths:
+   D /COPYING.LIB
+   D /Makefile
+   D /README_EN
+   D /README_HU
+   D /TODO
+   D /VERSION
+   A /branches
+   D /libsortdir.c
+   D /sortdir
+   A /tags
+   A /trunk
+   A /trunk/COPYING.LIB (from /COPYING.LIB:6)
+   A /trunk/Makefile (from /Makefile:6)
+   A /trunk/README_EN (from /README_EN:6)
+   A /trunk/README_HU (from /README_HU:6)
+   A /trunk/TODO (from /TODO:6)
+   A /trunk/VERSION (from /VERSION:6)
+   A /trunk/libsortdir.c (from /libsortdir.c:6)
+   A /trunk/sortdir (from /sortdir:6)
+
+new repository layout
+------------------------------------------------------------------------
